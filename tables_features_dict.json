@@ -1,0 +1,527 @@
+{
+    "HumanResources.Department.csv": [
+        "DepartmentID",
+        "Name",
+        "GroupName",
+        "ModifiedDate"
+    ],
+    "HumanResources.Employee.csv": [
+        "BusinessEntityID",
+        "NationalIDNumber",
+        "LoginID",
+        "OrganizationNode",
+        "OrganizationLevel",
+        "JobTitle",
+        "BirthDate",
+        "MaritalStatus",
+        "Gender",
+        "HireDate",
+        "SalariedFlag",
+        "VacationHours",
+        "SickLeaveHours",
+        "CurrentFlag",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "HumanResources.EmployeeDepartmentHistory.csv": [
+        "BusinessEntityID",
+        "DepartmentID",
+        "ShiftID",
+        "StartDate",
+        "EndDate",
+        "ModifiedDate"
+    ],
+    "HumanResources.EmployeePayHistory.csv": [
+        "BusinessEntityID",
+        "RateChangeDate",
+        "Rate",
+        "PayFrequency",
+        "ModifiedDate"
+    ],
+    "HumanResources.JobCandidate.csv": [
+        "JobCandidateID",
+        "BusinessEntityID",
+        "Resume",
+        "ModifiedDate"
+    ],
+    "HumanResources.Shift.csv": [
+        "ShiftID",
+        "Name",
+        "StartTime",
+        "EndTime",
+        "ModifiedDate"
+    ],
+    "Person.Address.csv": [
+        "AddressID",
+        "AddressLine1",
+        "AddressLine2",
+        "City",
+        "StateProvinceID",
+        "PostalCode",
+        "SpatialLocation",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Person.AddressType.csv": [
+        "AddressTypeID",
+        "Name",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Person.BusinessEntity.csv": [
+        "BusinessEntityID",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Person.BusinessEntityAddress.csv": [
+        "BusinessEntityID",
+        "AddressID",
+        "AddressTypeID",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Person.BusinessEntityContact.csv": [
+        "BusinessEntityID",
+        "PersonID",
+        "ContactTypeID",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Person.ContactType.csv": [
+        "ContactTypeID",
+        "Name",
+        "ModifiedDate"
+    ],
+    "Person.CountryRegion.csv": [
+        "CountryRegionCode",
+        "Name",
+        "ModifiedDate"
+    ],
+    "Person.EmailAddress.csv": [
+        "BusinessEntityID",
+        "EmailAddressID",
+        "EmailAddress",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Person.Password.csv": [
+        "BusinessEntityID",
+        "PasswordHash",
+        "PasswordSalt",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Person.Person.csv": [
+        "BusinessEntityID",
+        "PersonType",
+        "NameStyle",
+        "Title",
+        "FirstName",
+        "MiddleName",
+        "LastName",
+        "Suffix",
+        "EmailPromotion",
+        "AdditionalContactInfo",
+        "Demographics",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Person.PersonPhone.csv": [
+        "BusinessEntityID",
+        "PhoneNumber",
+        "PhoneNumberTypeID",
+        "ModifiedDate"
+    ],
+    "Person.StateProvince.csv": [
+        "StateProvinceID",
+        "StateProvinceCode",
+        "CountryRegionCode",
+        "IsOnlyStateProvinceFlag",
+        "Name",
+        "TerritoryID",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Production.BillOfMaterials.csv": [
+        "BillOfMaterialsID",
+        "ProductAssemblyID",
+        "ComponentID",
+        "StartDate",
+        "EndDate",
+        "UnitMeasureCode",
+        "BOMLevel",
+        "PerAssemblyQty",
+        "ModifiedDate"
+    ],
+    "Production.Culture.csv": [
+        "CultureID",
+        "Name",
+        "ModifiedDate"
+    ],
+    "Production.Location.csv": [
+        "LocationID",
+        "Name",
+        "CostRate",
+        "Availability",
+        "ModifiedDate"
+    ],
+    "Production.Product.csv": [
+        "ProductID",
+        "Name",
+        "ProductNumber",
+        "MakeFlag",
+        "FinishedGoodsFlag",
+        "Color",
+        "SafetyStockLevel",
+        "ReorderPoint",
+        "StandardCost",
+        "ListPrice",
+        "Size",
+        "SizeUnitMeasureCode",
+        "WeightUnitMeasureCode",
+        "Weight",
+        "DaysToManufacture",
+        "ProductLine",
+        "Class",
+        "Style",
+        "ProductSubcategoryID",
+        "ProductModelID",
+        "SellStartDate",
+        "SellEndDate",
+        "DiscontinuedDate",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Production.ProductCategory.csv": [
+        "ProductCategoryID",
+        "Name",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Production.ProductCostHistory.csv": [
+        "ProductID",
+        "StartDate",
+        "EndDate",
+        "StandardCost",
+        "ModifiedDate"
+    ],
+    "Production.ProductDescription.csv": [
+        "ProductDescriptionID",
+        "Description",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Production.ProductInventory.csv": [
+        "ProductID",
+        "LocationID",
+        "Shelf",
+        "Bin",
+        "Quantity",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Production.ProductKeywords.csv": [
+        "ProductID",
+        "ProductDescriptionID",
+        "Keyword"
+    ],
+    "Production.ProductSubcategory.csv": [
+        "ProductSubcategoryID",
+        "ProductCategoryID",
+        "Name",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Production.TransactionHistory.csv": [
+        "TransactionID",
+        "ProductID",
+        "ReferenceOrderID",
+        "ReferenceOrderLineID",
+        "TransactionDate",
+        "TransactionType",
+        "Quantity",
+        "ActualCost",
+        "ModifiedDate"
+    ],
+    "Production.UnitMeasure.csv": [
+        "UnitMeasureCode",
+        "Name",
+        "ModifiedDate"
+    ],
+    "Production.WorkOrder.csv": [
+        "WorkOrderID",
+        "ProductID",
+        "OrderQty",
+        "StockedQty",
+        "ScrappedQty",
+        "StartDate",
+        "EndDate",
+        "DueDate",
+        "ScrapReasonID",
+        "ModifiedDate"
+    ],
+    "Production.WorkOrderRouting.csv": [
+        "WorkOrderID",
+        "ProductID",
+        "OperationSequence",
+        "LocationID",
+        "ScheduledStartDate",
+        "ScheduledEndDate",
+        "ActualStartDate",
+        "ActualEndDate",
+        "ActualResourceHrs",
+        "PlannedCost",
+        "ActualCost",
+        "ModifiedDate"
+    ],
+    "Purchasing.ProductVendor.csv": [
+        "ProductID",
+        "BusinessEntityID",
+        "AverageLeadTime",
+        "StandardPrice",
+        "LastReceiptCost",
+        "LastReceiptDate",
+        "MinOrderQty",
+        "MaxOrderQty",
+        "OnOrderQty",
+        "UnitMeasureCode",
+        "ModifiedDate"
+    ],
+    "Purchasing.PurchaseOrderDetail.csv": [
+        "PurchaseOrderID",
+        "PurchaseOrderDetailID",
+        "DueDate",
+        "OrderQty",
+        "ProductID",
+        "UnitPrice",
+        "LineTotal",
+        "ReceivedQty",
+        "RejectedQty",
+        "StockedQty",
+        "ModifiedDate"
+    ],
+    "Purchasing.PurchaseOrderHeader.csv": [
+        "PurchaseOrderID",
+        "RevisionNumber",
+        "Status",
+        "EmployeeID",
+        "VendorID",
+        "ShipMethodID",
+        "OrderDate",
+        "ShipDate",
+        "SubTotal",
+        "TaxAmt",
+        "Freight",
+        "TotalDue",
+        "ModifiedDate"
+    ],
+    "Purchasing.ShipMethod.csv": [
+        "ShipMethodID",
+        "Name",
+        "ShipBase",
+        "ShipRate",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Purchasing.Vendor.csv": [
+        "BusinessEntityID",
+        "AccountNumber",
+        "Name",
+        "CreditRating",
+        "PreferredVendorStatus",
+        "ActiveFlag",
+        "PurchasingWebServiceURL",
+        "ModifiedDate"
+    ],
+    "Sales.CountryRegionCurrency.csv": [
+        "CountryRegionCode",
+        "CurrencyCode",
+        "ModifiedDate"
+    ],
+    "Sales.CreditCard.csv": [
+        "CreditCardID",
+        "CardType",
+        "CardNumber",
+        "ExpMonth",
+        "ExpYear",
+        "ModifiedDate"
+    ],
+    "Sales.Currency.csv": [
+        "CurrencyCode",
+        "Name",
+        "ModifiedDate"
+    ],
+    "Sales.CurrencyRate.csv": [
+        "CurrencyRateID",
+        "CurrencyRateDate",
+        "FromCurrencyCode",
+        "ToCurrencyCode",
+        "AverageRate",
+        "EndOfDayRate",
+        "ModifiedDate"
+    ],
+    "Sales.Customer.csv": [
+        "CustomerID",
+        "PersonID",
+        "StoreID",
+        "TerritoryID",
+        "AccountNumber",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Sales.FilteredSalesOrderDetail.csv": [
+        "SalesOrderID",
+        "SalesOrderDetailID",
+        "CarrierTrackingNumber",
+        "OrderQty",
+        "ProductID",
+        "SpecialOfferID",
+        "UnitPrice",
+        "UnitPriceDiscount",
+        "LineTotal",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Sales.FilteredSalesOrderHeader.csv": [
+        "SalesOrderID",
+        "RevisionNumber",
+        "OrderDate",
+        "DueDate",
+        "ShipDate",
+        "Status",
+        "OnlineOrderFlag",
+        "SalesOrderNumber",
+        "PurchaseOrderNumber",
+        "AccountNumber",
+        "CustomerID",
+        "SalesPersonID",
+        "TerritoryID",
+        "BillToAddressID",
+        "ShipToAddressID",
+        "ShipMethodID",
+        "CreditCardID",
+        "CreditCardApprovalCode",
+        "CurrencyRateID",
+        "SubTotal",
+        "TaxAmt",
+        "Freight",
+        "TotalDue",
+        "Comment",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Sales.FilteredSalesOrderHeaderWithDuration.csv": [
+        "SalesOrderID",
+        "RevisionNumber",
+        "OrderDate",
+        "DueDate",
+        "ShipDate",
+        "Status",
+        "OnlineOrderFlag",
+        "SalesOrderNumber",
+        "PurchaseOrderNumber",
+        "AccountNumber",
+        "CustomerID",
+        "SalesPersonID",
+        "TerritoryID",
+        "BillToAddressID",
+        "ShipToAddressID",
+        "ShipMethodID",
+        "CreditCardID",
+        "CreditCardApprovalCode",
+        "CurrencyRateID",
+        "SubTotal",
+        "TaxAmt",
+        "Freight",
+        "TotalDue",
+        "Comment",
+        "rowguid",
+        "ModifiedDate",
+        "Duration"
+    ],
+    "Sales.PersonCreditCard.csv": [
+        "BusinessEntityID",
+        "CreditCardID",
+        "ModifiedDate"
+    ],
+    "Sales.SalesOrderHeaderSalesReason.csv": [
+        "SalesOrderID",
+        "SalesReasonID",
+        "ModifiedDate"
+    ],
+    "Sales.SalesPerson.csv": [
+        "BusinessEntityID",
+        "TerritoryID",
+        "SalesQuota",
+        "Bonus",
+        "CommissionPct",
+        "SalesYTD",
+        "SalesLastYear",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Sales.SalesTaxRate.csv": [
+        "SalesTaxRateID",
+        "StateProvinceID",
+        "TaxType",
+        "TaxRate",
+        "Name",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Sales.SalesTerritory.csv": [
+        "TerritoryID",
+        "Name",
+        "CountryRegionCode",
+        "Group",
+        "SalesYTD",
+        "SalesLastYear",
+        "CostYTD",
+        "CostLastYear",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Sales.SalesTerritoryHistory.csv": [
+        "BusinessEntityID",
+        "TerritoryID",
+        "StartDate",
+        "EndDate",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Sales.ShoppingCartItem.csv": [
+        "ShoppingCartItemID",
+        "ShoppingCartID",
+        "Quantity",
+        "ProductID",
+        "DateCreated",
+        "ModifiedDate"
+    ],
+    "Sales.SpecialOffer.csv": [
+        "SpecialOfferID",
+        "Description",
+        "DiscountPct",
+        "Type",
+        "Category",
+        "StartDate",
+        "EndDate",
+        "MinQty",
+        "MaxQty",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Sales.SpecialOfferProduct.csv": [
+        "SpecialOfferID",
+        "ProductID",
+        "rowguid",
+        "ModifiedDate"
+    ],
+    "Sales.Store.csv": [
+        "BusinessEntityID",
+        "Name",
+        "SalesPersonID",
+        "Demographics",
+        "rowguid",
+        "ModifiedDate"
+    ]
+}
