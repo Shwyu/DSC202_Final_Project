@@ -1,4 +1,7 @@
 # DSC202_Final_Project 
 ### Topic: AdventureWorks Product Recommendation System
 Group members:
-Yuan Zhang, Zhoutianning Pan, Shuyu Wang
+Shuyu Wang (A16357263), 
+Yuan Zhang (A69037582), 
+Zhoutianning Pan (A16263806)
+
